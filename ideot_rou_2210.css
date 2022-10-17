@@ -1,0 +1,161 @@
+/*  */
+#container {
+    background-image: none;
+}
+.title-logo {
+	background-image: url('img/ideot-ttl.png');
+}
+.event-notice {
+	background-image: url('img/ideot-notice.png');
+    position: relative;
+}
+
+
+.part_1, .part_4, .part_5 {
+    background: #fffcdb;
+}
+
+
+.roulette {
+    margin-top: -15%;
+    border: 14px solid #ff0000;
+}   
+    @media (max-width: 700px) {
+        .roulette {
+            border: 14px solid #ff0000;
+        }    
+    }
+
+.start {
+    background: #ff0000;
+}
+
+.pointer {
+    background-image: url('img/ideot-pointer.png');
+}
+
+
+.title-logo {
+    min-height: 32vh;
+}
+
+
+.event-notice {
+    min-height: 140px;
+}
+
+
+@media all and (min-width:960px) {
+    .event-notice {
+        padding-bottom: 0!important;
+        height: 630px;
+    }
+}
+
+.msg__wrap {
+    padding: 12.5% 10%;
+}
+
+
+
+.st-txt {
+    font-size: 2em;
+}
+
+.red-line {
+    width: 100%;
+    height: 40px;
+    z-index: 0;
+    background-color: #ff0000;
+    position: absolute;
+    bottom: 0;
+}
+
+
+/* mobile */
+
+
+/*갤럭시폴더*/
+@media screen and (max-width:280px) {
+    .title-logo {
+        min-height: 25vh;
+    }
+    .event-notice {
+        min-height: 240px;
+        margin-top: 2em;
+    }
+}
+/*아이폰 SE*/
+@media screen and (min-width:320px) {
+    .event-notice {
+        min-height: 112px;
+    }
+    main {
+        min-height: 60vh;
+    }
+}
+
+
+/* 갤럭시s8+ */
+@media screen and (min-width:360px) {
+    .event-notice {
+        min-height: 280px;
+    }
+}
+
+
+/*아이폰 6,7,8 */
+@media screen and (min-width:375px) {
+    .event-notice {
+        min-height: 295px;
+    }
+    main {
+        min-height: 54vh;
+    }
+    .red-line {
+        height: 20px;
+    }
+}
+
+
+/*아이폰 12pro */
+@media screen and (min-width:390px) {
+    .event-notice {
+        min-height: 136px;
+    }
+}
+
+
+/*아이폰 6,7,8 plus */
+@media screen and (min-width:414px) {
+    .event-notice {
+        min-height: 465px;
+    }
+    main {
+        min-height: 30vh;
+    }
+}
+
+
+/*  */
+@media screen and (min-width: 768px){
+    main {
+        min-height: 43vh;
+    }
+    .add-logo-img {
+        width: 15%;
+    }
+    .title-logo {
+        margin-bottom: 2em!important;
+    }
+    .roulette {
+        margin-top: -5%;
+    }
+}
+
+@media screen and (min-width: 960px){
+    .title-logo {
+        margin-bottom: -4em!important;
+    }
+}
+
